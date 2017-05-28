@@ -1,0 +1,12 @@
+{
+    "Database": {
+        "driver": "mysql",
+        "user": "root",
+        "name": "ioncity",
+        "password": ""
+    },
+    "App": {
+        "secret": "ilovescotchyscotch",
+        "tokenExpiresTime":1440 
+    }
+}
