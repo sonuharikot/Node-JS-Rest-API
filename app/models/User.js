@@ -20,7 +20,7 @@ module.exports = function (sequelize, Sequelize) {
         },
         first_name: {
             type: Sequelize.STRING,
-            allowNull: false,
+            //allowNull: false,
             validate: {
                 notEmpty: {
                     notEmpty: true,

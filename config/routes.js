@@ -4,5 +4,7 @@ module.exports = function (app) {
     //=====Users Routes======//
     app.post('/login',Users.login)
     app.post('/register',Users.register)
+    app.get('/detail/:id',Users.detail)
+    
     
 }
